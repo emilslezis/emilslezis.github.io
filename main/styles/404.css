@@ -1,0 +1,57 @@
+@import "reset.css";
+
+.digits{
+
+    font-size: 300px;
+    color: #ff8a00;
+
+}
+
+main{
+
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 100px;
+
+}
+
+
+div h2{
+
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+p{
+
+    font-size: 20px;
+
+}
+
+div a{
+
+    display: block;
+    background-color: #ff8a00;
+    color: #fff;
+    width: 270px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+
+}

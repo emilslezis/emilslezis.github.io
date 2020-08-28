@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="styles/kontakti.css">
+        <title>Mani kontakti</title>
+
+    </head>
+    <body>
+        <header>
+            <nav class="wrapper">
+                <div class="topnav" id="myTopnav">
+                    <a href="#" id="logo">Mārtiņš <span class="bold">Ansons</span></a>
+                    <div class="nav"> 
+
+                        <a href="index.html" class="active">Sākums</a>
+                        <a href="par.html" class="word orange" >Par mani</a>
+                        <a href="pakalpojumi.html" class="word">Pakalpojumi</a>
+                        <a href="darbi.html" class="word">Darbi</a>
+                        <a href="kontakti.html" class="word" style="color: #ff8a00;">Kontakti</a>
+                        <div class="lang" id="language">
+                            <a href="eng_start.html"><img src="images/uk_flag.png" alt="flag"></a>
+                            <a href="index.html"><img src="images/lv_flag.png" alt="flag"></a>
+                            <a href="ru_start.html"><img src="images/ru_flag.png" alt="flag"></a>
+                        </div>
+
+                    </div>
+                    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+                <script src="scripts/navigation.js"></script>
+            </nav>
+        </header>
+        <main>
+            <section class="contactText">
+    
+                <div class="top_dots">
+                    <img src="images/DotLineShort.png" alt="dots">
+                    <p>Kontakti</p>
+                    <img src="images/DotLineShort.png" alt="dots">
+                </div>
+                <h2>Sazinies <span class="orange">ar mani</span></h2>
+                <p class="p">Ja jums ir kādi jautājumi, jūs vēlaties kaut ko noskaidrot vai arī uzzināt vairāk, tad jūs variet man nosūtīt ziņu.Tas ir pavisam vienkārši un ātri!<br> Jums tikai jāievada sava epasta adrese un telefona numurs, ar kuru jūs var sasniegt, un jāuzraksta savs jautājums.</p>
+    
+                <div class="form" id="infoForm">
+                    <h3>Sūti <span class="orange">ziņu</span></h3>
+                    <form action="">
+    
+                        <input type="number" placeholder="Jūsu tālruņa nummurs" required id="number">
+                        <input type="email" placeholder="Jūsu epasta adrese" required id="email">
+                        <textarea name="text" placeholder="Jūsu ziņa" required id="textarea"></textarea>
+                        <input type="submit" value="Nosūtīt" id="submit">
+                    </form>
+                </div> 
+                <div class="contact_info">
+                    <ul>
+                        <li>
+                            <div class="box"><img src="images/phone.svg" alt="phone"></div>
+                            <div class="inf">
+                                <h3>Tālruņa nummurs<br></h3>
+                                <p>+371 200 189 49</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box"><img src="images/message.svg" alt="message"></div>
+                            <div class="inf">
+                                <h3>Epasta adrese<br></h3>
+                                <p>martinsansons@inbox.lv</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+    
+            </section>
+        </main>
+        <footer>
+            <div class="wrapper footer">
+                <p>© 2020 Mārtiņš Ansons </p>
+                <p>Saitu izstrāde: emilsaleksis2@gmail.com</p>
+            </div> 
+        </footer>
+    </body>
+</html>
