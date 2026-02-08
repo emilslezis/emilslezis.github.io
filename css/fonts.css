@@ -1,0 +1,16 @@
+@font-face {
+  font-family: AbrilFatface-regular; /* set name */
+  src: url(../static/fonts/AbrilFatface-Regular.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: Geologica;
+  src: url(../static/fonts/Geologica-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Geologica;
+  src: url(../static/fonts/Geologica-SemiBold.ttf);
+  font-weight: 600;
+}

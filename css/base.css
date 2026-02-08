@@ -1,0 +1,64 @@
+@import url(fonts.css);
+
+body{
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+
+    max-height: calc(100vh - 136pt);
+    max-width: calc(100vw - 136pt);
+
+    padding: 68pt;
+}
+
+h2{
+    font-family: AbrilFatface-regular, sans-serif;
+    font-size: 220pt;
+    margin: 0 0 26pt;
+}
+
+p{
+    font-family: Geologica, sans-serif;
+    margin: 0;
+}
+
+.image img{
+    max-height: 250vh;
+    left: 70vw;
+    top: -20vh;
+
+    position: fixed;
+}
+
+.undertext{
+    font-weight: 600;
+    font-size: 25pt;
+}
+
+.contacts{
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials{
+    margin-top: 13pt;
+}
+
+/* Mobile view */
+@media (min-width: 600px) {
+    main{
+        flex-direction: column-reverse;
+    }
+}
