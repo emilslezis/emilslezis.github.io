@@ -50,15 +50,10 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    height: calc(100vh - 136pt);
 }
 
 .socials{
     margin-top: 13pt;
-}
-
-/* Mobile view */
-@media (min-width: 600px) {
-    main{
-        flex-direction: column-reverse;
-    }
 }
